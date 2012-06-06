@@ -1,0 +1,20 @@
+This is an old proyect I written in 2007.
+
+Both (client and server) run in Windows environment.
+
+Client listens in a port, and server makes a reverse connection to act as a backdoor.
+
+The client is written in C and server is written in ASM.
+
+Nowadays it supports the following commands:
+
+* Close the backdoor
+* Show available commands
+* Launch a reverse shell
+* Close the reverse shell
+* Make screenshots
+* Upload a file to remote FTP server
+* Download files from FTP server
+* Download files from HTTP server
+
+NOTE: The server doesn't provide host infection
